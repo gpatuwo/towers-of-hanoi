@@ -66,3 +66,7 @@ ul {
 .d3{
   width: 100%;
 }
+
+.thisTower {
+  background-color: lightgreen;
+}

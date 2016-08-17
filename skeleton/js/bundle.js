@@ -168,6 +168,7 @@
 	    $tower.on("click", event1 => {
 	      const startTower = event1.currentTarget;
 	      const $startTower = $(startTower);
+	      $startTower.addClass('thisTower');
 	      $tower.on("click", event2 => {
 	        const endTower = event2.currentTarget;
 	        const $endTower = $(endTower);
