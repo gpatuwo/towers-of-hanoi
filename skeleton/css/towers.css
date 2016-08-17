@@ -42,7 +42,7 @@ ul {
 }
 
 .disc{
-  background: brown;
+  background: blue;
   height: 40px;
   display: flex;
   flex-direction: column;
@@ -50,7 +50,9 @@ ul {
   font-size: 20px;
   text-align: center;
   margin: 0 auto;
-  border-radius: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+  align-content: center;
 }
 
 .d1{

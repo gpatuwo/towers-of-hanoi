@@ -5,5 +5,7 @@ $( () => {
   const rootEl = $('.hanoi');
   const game = new HanoiGame();
   let view = new HanoiView(game, rootEl);
-  view.setupTowers();
+
+  view.render();
+  view.bindEvents();
 });
